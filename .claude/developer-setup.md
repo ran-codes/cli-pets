@@ -13,5 +13,10 @@ uv --version
 There are many types of projects that UV can manage and initialize. A packges is a project that is intended to be built and distributed as a Python package. To intiate a package project, run the following command:
 
 ```shell
-uv init --lib mypackage
+uv init --lib cli-pets
 ```
+
+## Dependencies
+
+- `rich` for terminal animations
+- `click` for command line interface (optional later)
