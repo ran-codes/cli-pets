@@ -5,10 +5,9 @@ import time
 from rich.console import Console
 from rich.live import Live
 from rich.text import Text
+from cli_pets.constants import PETS
 
 console = Console()
-
-PETS = ["🐱", "🐶", "🐰", "🐭", "🐹", "🦊", "🐻", "🐼", "🐨", "🐯"]
 
 
 def race(

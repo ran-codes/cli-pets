@@ -2,10 +2,9 @@
 
 import random
 from rich.console import Console
+from cli_pets.constants import PETS
 
 console = Console()
-
-PETS = ["🐱", "🐶", "🐰", "🐭", "🐹", "🦊", "🐻", "🐼", "🐨", "🐯"]
 
 
 def greet() -> None:
