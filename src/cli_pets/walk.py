@@ -1,10 +1,6 @@
 """Walking animation function for CLI Pets."""
 
-import time
-from rich.console import Console
-from rich.text import Text
-
-console = Console()
+from cli_pets.race import race
 
 
 def walk(pet: str = "🐱", steps: int = 30, speed: float = 0.1) -> None:
@@ -15,9 +11,4 @@ def walk(pet: str = "🐱", steps: int = 30, speed: float = 0.1) -> None:
         steps: Number of steps to take (default: 30)
         speed: Seconds between steps (default: 0.1)
     """
-    for i in range(steps):
-        console.clear()
-        text = Text(" " * i + pet)
-        console.print(text)
-        time.sleep(speed)
-    console.print()
+    race(distance=steps, racers=1, pets=[pet], speed=speed, show_winner=False)

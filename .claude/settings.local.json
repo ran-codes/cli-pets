@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from src.cli_pets.walk import walk; walk(pet=''🐕'', steps=20, speed=0.05)\")",
+      "Bash(python -m src.cli_pets.walk:*)",
+      "Bash(pip install:*)",
+      "Bash(uv sync:*)",
+      "Bash(uv run python -c \"from cli_pets.walk import walk; walk(pet=''🐕'', steps=20, speed=0.05)\")",
+      "Bash(uv run:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
