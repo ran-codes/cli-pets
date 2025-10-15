@@ -9,4 +9,4 @@ print(os.environ.get('UV_PUBLISH_PASSWORD'))
 
 
 ## Publish using uv
-subprocess.run(["uv", "publish"])
+subprocess.run(["uv", "publish"], check=True)
