@@ -1,6 +1,6 @@
 [project]
 name = "cli-pets"
-version = "0.0.1"
+version = "0.1.1"
 description = "Interactive CLI pets with animated emoji characters for your terminal"
 readme = "README.md"
 license = "MIT"

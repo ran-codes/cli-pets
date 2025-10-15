@@ -163,9 +163,19 @@ Created by [rl627](https://github.com/ran-codes)
 
 ## Changelog
 
-### v0.0.1 (2025-10-15)
+### v0.1.1 (2025-10-15)
 
-Initial release of CLI Pets!
+Fixed release with proper metadata and documentation!
+
+**Fixed:**
+- Added complete README with examples and documentation
+- Added proper package description for PyPI
+- Added demo GIF showcase
+- Updated package metadata and classifiers
+
+### v0.1.0 (2025-10-15)
+
+Initial release of CLI Pets! (incomplete metadata)
 
 **Features:**
 - Walk animation for pets across the terminal
