@@ -1,9 +1,10 @@
 ## Prepare Package Metadata 
 
-- [ ] Set up a License
+- [x] Set up a License
+- [ ] Update pyproject.toml
 - [ ] Update README.md
 - [ ] Update CHANGELOG.md
-- [ ] pyproject.toml 
+
 
 
 ## Setup PyPI Account (One-time)
