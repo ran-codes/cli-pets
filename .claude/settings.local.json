@@ -6,7 +6,8 @@
       "Bash(pip install:*)",
       "Bash(uv sync:*)",
       "Bash(uv run python -c \"from cli_pets.walk import walk; walk(pet='🐕', steps=20, speed=0.05)\")",
-      "Bash(uv run:*)"
+      "Bash(uv run:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []
