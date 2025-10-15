@@ -3,6 +3,7 @@ name = "cli-pets"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+license = "MIT"
 authors = [
     { name = "rl627", email = "rl627@drexel.edu" }
 ]

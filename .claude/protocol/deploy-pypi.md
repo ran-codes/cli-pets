@@ -23,7 +23,7 @@
 
 ### Real Publish
 
-- [ ] Build the package `uv build`
+- [x] Build the package `uv build`
 - [ ] Publish the package `uv run publish.py`
 - [ ] Verify at https://pypi.org/project/cli-pets/
 - [ ] Test install: `pip install cli-pets` 
