@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: CLI-PETS
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
