@@ -1,18 +1,19 @@
 ## Prepare Package Metadata 
 
 - [x] Set up a License
-- [ ] Update pyproject.toml
-- [ ] Update README.md
-- [ ] Update CHANGELOG.md
+- [x] Update pyproject.toml
+- [x] Update README.md
+- [x] Upload any README image assets to assets folder
+- [x] Update CHANGELOG section of READM.md
 
 
 
 ## Setup PyPI Account (One-time)
 
-- [ ] Create PyPI account at https://pypi.org/account/register/
-- [ ] Verify your email
-- [ ] Go to Account Settings → API tokens (https://pypi.org/manage/account/token/)
-- [ ] Click "Add API token"
+- [x] Create PyPI account at https://pypi.org/account/register/
+- [x] Verify your email
+- [x] Go to Account Settings → API tokens (https://pypi.org/manage/account/token/)
+- [x] Click "Add API token"
 
 ## Store API Token
 
