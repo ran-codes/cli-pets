@@ -31,5 +31,6 @@ plugins:
 
 # Deploy
 
-- [ ] build site with `uv run mkdocs build` or just deploy with `uv run mkdocs gh-deploy`
-- [ ] Enable pages deplyoed from gh-pages branch
+- [x] build site with `uv run mkdocs build` or just deploy with `uv run mkdocs gh-deploy`
+- [x] Enable pages deplyoed from gh-pages branch
+- [x] check site is live at `https://<github-username>.github.io/<repo-name>/`
