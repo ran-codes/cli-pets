@@ -31,3 +31,5 @@ plugins:
 
 # Deploy
 
+- [ ] build site with `uv run mkdocs build` or just deploy with `uv run mkdocs gh-deploy`
+- [ ] Enable pages deplyoed from gh-pages branch
